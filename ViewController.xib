@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController">
+            <connections>
+                <outlet property="backgroundView" destination="Qhu-U0-se7" id="057-fR-cjV"/>
+                <outlet property="loginButton" destination="FZd-HA-Wra" id="irq-Ve-68b"/>
+                <outlet property="loginGroupView" destination="vSQ-Qm-52X" id="vDH-4j-ek3"/>
+                <outlet property="loginWaitSpinner" destination="TjH-e1-ZT3" id="vH8-rA-Kb4"/>
+                <outlet property="passwordBox" destination="Zat-1j-eDN" id="1AW-BW-Tga"/>
+                <outlet property="signupText" destination="F3Z-wB-SZ1" id="FyB-DW-3dT"/>
+                <outlet property="usernameBox" destination="Mxf-Q5-DES" id="H5e-4i-flA"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login" id="Qhu-U0-se7">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <gestureRecognizers/>
+                </imageView>
+                <view contentMode="scaleToFill" id="vSQ-Qm-52X">
+                    <rect key="frame" x="15" y="97" width="295" height="281"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" id="nSd-MM-gVE">
+                            <rect key="frame" x="-13" y="23" width="320" height="93"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="textBackground" id="2WW-f0-CRg">
+                            <rect key="frame" x="-16" y="110" width="326" height="109"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email or phone number" minimumFontSize="17" id="Mxf-Q5-DES">
+                            <rect key="frame" x="20" y="126" width="224" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <connections>
+                                <action selector="emailTouchDown:" destination="-1" eventType="touchDown" id="rh6-B8-yA9"/>
+                            </connections>
+                        </textField>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" minimumFontSize="17" id="Zat-1j-eDN">
+                            <rect key="frame" x="20" y="173" width="224" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <connections>
+                                <action selector="passwordEditingChanged:" destination="-1" eventType="editingChanged" id="9gs-Pl-FUv"/>
+                                <action selector="passwordTouchDown:" destination="-1" eventType="touchDown" id="Imz-RU-gEK"/>
+                            </connections>
+                        </textField>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="FZd-HA-Wra">
+                            <rect key="frame" x="-16" y="218" width="326" height="54"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="login-button">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="disabled" image="login-button-disabled"/>
+                            <state key="selected" image="logging in"/>
+                            <connections>
+                                <action selector="logInButton:" destination="-1" eventType="touchUpInside" id="BBc-RR-rwS"/>
+                            </connections>
+                        </button>
+                        <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="white" id="TjH-e1-ZT3">
+                            <rect key="frame" x="260" y="236" width="20" height="20"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </activityIndicatorView>
+                    </subviews>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="signup" id="F3Z-wB-SZ1">
+                    <rect key="frame" x="0.0" y="455" width="320" height="65"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <gestureRecognizers/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <connections>
+                <outletCollection property="gestureRecognizers" destination="ilC-qS-P0e" appends="YES" id="aA6-cX-hrZ"/>
+            </connections>
+        </view>
+        <tapGestureRecognizer id="ilC-qS-P0e">
+            <connections>
+                <action selector="KeyboardDimiss:" destination="-1" id="gFH-DJ-HH9"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+    <resources>
+        <image name="logging in" width="361" height="61"/>
+        <image name="login" width="361" height="640"/>
+        <image name="login-button" width="361" height="61"/>
+        <image name="login-button-disabled" width="361" height="61"/>
+        <image name="logo" width="361" height="94"/>
+        <image name="signup" width="361" height="59"/>
+        <image name="textBackground" width="361" height="117"/>
+    </resources>
+</document>

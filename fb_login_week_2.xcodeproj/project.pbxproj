@@ -13,12 +13,16 @@
 		148A0ACC1957728B00B7BD6E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 148A0ACA1957728B00B7BD6E /* InfoPlist.strings */; };
 		148A0ACE1957728B00B7BD6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 148A0ACD1957728B00B7BD6E /* main.m */; };
 		148A0AD21957728B00B7BD6E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 148A0AD11957728B00B7BD6E /* AppDelegate.m */; };
-		148A0AD41957728B00B7BD6E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 148A0AD31957728B00B7BD6E /* Images.xcassets */; };
 		148A0ADB1957728B00B7BD6E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 148A0ADA1957728B00B7BD6E /* XCTest.framework */; };
 		148A0ADC1957728B00B7BD6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 148A0AC11957728B00B7BD6E /* Foundation.framework */; };
 		148A0ADD1957728B00B7BD6E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 148A0AC51957728B00B7BD6E /* UIKit.framework */; };
 		148A0AE51957728C00B7BD6E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 148A0AE31957728C00B7BD6E /* InfoPlist.strings */; };
 		148A0AE71957728C00B7BD6E /* fb_login_week_2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 148A0AE61957728C00B7BD6E /* fb_login_week_2Tests.m */; };
+		148A0AF3195773C000B7BD6E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 148A0AF1195773C000B7BD6E /* ViewController.m */; };
+		148A0AF4195773C000B7BD6E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 148A0AF2195773C000B7BD6E /* ViewController.xib */; };
+		148A0AF619578A7700B7BD6E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 148A0AF519578A7700B7BD6E /* Images.xcassets */; };
+		148A0AFA1957955900B7BD6E /* FeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 148A0AF81957955900B7BD6E /* FeedViewController.m */; };
+		148A0AFB1957955900B7BD6E /* FeedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 148A0AF91957955900B7BD6E /* FeedViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,12 +46,18 @@
 		148A0ACF1957728B00B7BD6E /* fb_login_week_2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "fb_login_week_2-Prefix.pch"; sourceTree = "<group>"; };
 		148A0AD01957728B00B7BD6E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		148A0AD11957728B00B7BD6E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		148A0AD31957728B00B7BD6E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		148A0AD91957728B00B7BD6E /* fb_login_week_2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fb_login_week_2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		148A0ADA1957728B00B7BD6E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		148A0AE21957728C00B7BD6E /* fb_login_week_2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "fb_login_week_2Tests-Info.plist"; sourceTree = "<group>"; };
 		148A0AE41957728C00B7BD6E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		148A0AE61957728C00B7BD6E /* fb_login_week_2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fb_login_week_2Tests.m; sourceTree = "<group>"; };
+		148A0AF0195773C000B7BD6E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		148A0AF1195773C000B7BD6E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		148A0AF2195773C000B7BD6E /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		148A0AF519578A7700B7BD6E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		148A0AF71957955900B7BD6E /* FeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedViewController.h; sourceTree = "<group>"; };
+		148A0AF81957955900B7BD6E /* FeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedViewController.m; sourceTree = "<group>"; };
+		148A0AF91957955900B7BD6E /* FeedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FeedViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +87,12 @@
 		148A0AB51957728B00B7BD6E = {
 			isa = PBXGroup;
 			children = (
+				148A0AF0195773C000B7BD6E /* ViewController.h */,
+				148A0AF1195773C000B7BD6E /* ViewController.m */,
+				148A0AF2195773C000B7BD6E /* ViewController.xib */,
+				148A0AF71957955900B7BD6E /* FeedViewController.h */,
+				148A0AF81957955900B7BD6E /* FeedViewController.m */,
+				148A0AF91957955900B7BD6E /* FeedViewController.xib */,
 				148A0AC71957728B00B7BD6E /* fb_login_week_2 */,
 				148A0AE01957728B00B7BD6E /* fb_login_week_2Tests */,
 				148A0AC01957728B00B7BD6E /* Frameworks */,
@@ -107,9 +123,9 @@
 		148A0AC71957728B00B7BD6E /* fb_login_week_2 */ = {
 			isa = PBXGroup;
 			children = (
+				148A0AF519578A7700B7BD6E /* Images.xcassets */,
 				148A0AD01957728B00B7BD6E /* AppDelegate.h */,
 				148A0AD11957728B00B7BD6E /* AppDelegate.m */,
-				148A0AD31957728B00B7BD6E /* Images.xcassets */,
 				148A0AC81957728B00B7BD6E /* Supporting Files */,
 			);
 			path = fb_login_week_2;
@@ -219,8 +235,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				148A0AF619578A7700B7BD6E /* Images.xcassets in Resources */,
 				148A0ACC1957728B00B7BD6E /* InfoPlist.strings in Resources */,
-				148A0AD41957728B00B7BD6E /* Images.xcassets in Resources */,
+				148A0AFB1957955900B7BD6E /* FeedViewController.xib in Resources */,
+				148A0AF4195773C000B7BD6E /* ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +257,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				148A0AF3195773C000B7BD6E /* ViewController.m in Sources */,
 				148A0AD21957728B00B7BD6E /* AppDelegate.m in Sources */,
+				148A0AFA1957955900B7BD6E /* FeedViewController.m in Sources */,
 				148A0ACE1957728B00B7BD6E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -362,7 +382,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "fb_login_week_2/fb_login_week_2-Prefix.pch";
 				INFOPLIST_FILE = "fb_login_week_2/fb_login_week_2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -375,7 +397,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "fb_login_week_2/fb_login_week_2-Prefix.pch";
 				INFOPLIST_FILE = "fb_login_week_2/fb_login_week_2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
