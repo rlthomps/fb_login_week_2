@@ -100,11 +100,16 @@
   
     
         FeedViewController *vc = [[FeedViewController alloc] init];
-        vc.modalTransitionStyle = UIModalTransitionStyleCoverVertical;
+
       
-        [self presentViewController:vc animated:YES completion:nil];
-        
-        
+      UINavigationController *feedNC = [[UINavigationController alloc] initWithRootViewController:vc];
+      vc.modalTransitionStyle = UIModalTransitionStyleCoverVertical;
+      
+      vc.navigationItem.title = @"Feed";
+      
+        [self presentViewController:feedNC animated:YES completion:nil];
+      
+      
     } else {
         
         
@@ -151,7 +156,7 @@
      [UIView animateWithDuration:0.2 animations:^{      self.signupText.frame = CGRectMake(self.signupText.frame.origin.x, 280, self.signupText.frame.size.width, self.signupText.frame.size.height); }];
     
 
-    
+
     
     
 }
